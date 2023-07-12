@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Darumadrop One", cursive;
+  position: relative;
+}
+
+.container {
+  background-image: url(img/bg-img.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  top: 1%;
+  color: #375b7d;
+  font-size: 3.6rem;
+}
+
+p {
+  font-size: 2rem;
+  position: absolute;
+  top: 13%;
+}
+
+#input-text,
+#output-text {
+  font-family: "Darumadrop One", cursive;
+  color: #563513;
+  padding: 1.6rem 0.8rem;
+  font-size: 1.8rem;
+  border: 0.3rem dashed #5f7c97;
+  background: none;
+  cursor: text;
+  min-width: 25rem;
+  height: 7rem;
+  text-align: center;
+  border-radius: 4rem;
+  transform: translateY(-50%);
+  margin-right: 7rem;
+  outline: none;
+}
+
+#input-text {
+  margin-right: auto;
+  margin-left: 7rem;
+}
+
+#input-text:focus {
+  background-color: #fbde6b;
+  border: 0.3rem solid #375b7d;
+}
+
+#input-text::placeholder {
+  color: #7e6d2e;
+}
+
+#input-text:not(:placeholder-shown) + #btn-translate {
+  display: block;
+}
+
+#btn-translate {
+  font-family: "Darumadrop One", cursive;
+  cursor: pointer;
+  color: #e5e5e6;
+  font-size: 1.6rem;
+  padding: 0.6rem 3.2rem 1.2rem;
+  background-color: #4b6b8a;
+  border-radius: 4rem;
+  border: 0.3rem solid #2b1a0a;
+  position: absolute;
+  bottom: 35%;
+  left: 14%;
+  display: none;
+}
+
+#btn-translate:hover {
+  color: #f2f2f2;
+  background-color: #375b7d;
+  text-decoration: underline;
+  border: 0.3rem solid #1d1206;
+}
+
+.output-label {
+  position: absolute;
+}
