@@ -50,6 +50,10 @@ p {
   outline: none;
 }
 
+#output-text {
+  color: #7e6d2e;
+}
+
 #input-text {
   margin-right: auto;
   margin-left: 7rem;
@@ -92,4 +96,7 @@ p {
 
 .output-label {
   position: absolute;
+  font-size: 1.6rem;
+  top: 27%;
+  right: 12%;
 }
