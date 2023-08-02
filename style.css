@@ -24,6 +24,14 @@ h1 {
   top: 1%;
   color: #375b7d;
   font-size: 3.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.heading-icon {
+  transform: translateY(10%);
+  /* align-self: end; */
 }
 
 p {
@@ -45,9 +53,17 @@ p {
   height: 7rem;
   text-align: center;
   border-radius: 4rem;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
   margin-right: 7rem;
   outline: none;
+}
+
+#output-text {
+  color: #7e6d2e;
+}
+
+.icon {
+  transform: translate(-225%, -10%);
 }
 
 #input-text {
@@ -94,10 +110,10 @@ p {
 .output-label {
   position: absolute;
   font-size: 1.6rem;
-  top: 27%;
-  right: 12%;
+  top: 28%;
+  right: 10%;
 }
 
 .input-label {
-  left: 15%;
+  left: 21%;
 }
