@@ -105,15 +105,3 @@ p {
   text-decoration: underline;
   border: 0.3rem solid #1d1206;
 }
-
-.input-label,
-.output-label {
-  position: absolute;
-  font-size: 1.6rem;
-  top: 28%;
-  right: 10%;
-}
-
-.input-label {
-  left: 21%;
-}
