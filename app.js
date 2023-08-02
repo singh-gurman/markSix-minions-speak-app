@@ -16,6 +16,7 @@ function errorHandler(error) {
 function styleOutputBox() {
   outputText.style.background = "#fbde6b";
   outputText.style.border = "0.3rem solid #375b7d";
+  outputText.style.color = "#563513";
 }
 
 function clickHandler() {
